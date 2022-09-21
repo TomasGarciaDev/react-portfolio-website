@@ -7,3 +7,11 @@
   list-style: none;
   text-decoration: none;
 }
+
+:root {
+  --color-bg: #f6ebf4;
+  --color-primary: #482673;
+  --color-primary-variant: #ed0b70; 
+  --color-turquoise: #301008;
+  --color-light: #4cbfa6;
+}
