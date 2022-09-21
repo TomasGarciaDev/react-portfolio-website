@@ -10,8 +10,13 @@
 
 :root {
   --color-bg: #f6ebf4;
+  --color-bg-variant: #F3F3F3;
   --color-primary: #482673;
   --color-primary-variant: #ed0b70; 
   --color-turquoise: #301008;
   --color-light: #4cbfa6;
+
+  --container-width-lg: 75%;
+  --contatiner-width-md: 86%;
+  --container-width-sm: 90%;
 }
