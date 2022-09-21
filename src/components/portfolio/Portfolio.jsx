@@ -1,6 +1,6 @@
-import './projects.css'
+import './portfolio.css'
 
-export default function Projects() {
+export default function Portfolio() {
   return (
     <div>
       <h1>Projects</h1>
