@@ -1,6 +1,7 @@
 import './header.css';
 import CTA from './CTA';
-import ME from '../../assets/ME_header.png'
+import ME from '../../assets/ME_header.png';
+import HeaderSocials from './HeaderSocials';
 
 export default function Header() {
   return (
@@ -10,6 +11,7 @@ export default function Header() {
         <h1>Tomás García</h1>
         <h5 className='text-light'>Fullstack Developer</h5>
         <CTA />
+        <HeaderSocials />
 
         <div className='me'>
           <img src={ME} alt=""/>
