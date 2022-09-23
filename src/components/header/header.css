@@ -27,7 +27,7 @@ header {
   gap: 0.8rem;
   position: absolute;
   left: 0;
-  bottom: 3rem;
+  bottom: 22rem;
 }
 
 .header__socials::after {
@@ -50,4 +50,15 @@ header {
   border-radius: 10rem 10rem 1rem 1rem;
   overflow: hidden;
   padding: 3rem 1.5rem 1.5rem 1.5rem;
+}
+
+/* ========== SCROOL DOWN ========== */
+
+.scroll__down {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 25rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
 }
