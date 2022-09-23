@@ -40,7 +40,14 @@ header {
 /* ========== ME ========== */
 
 .me {
-  background: var(--color-primary);
+  background: linear-gradient(transparent, var(--color-primary));
   width: 22rem;
-  height: 30rem;
+  height: 21.5rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 4rem;
+  border-radius: 10rem 10rem 1rem 1rem;
+  overflow: hidden;
+  padding: 3rem 1.5rem 1.5rem 1.5rem;
 }
