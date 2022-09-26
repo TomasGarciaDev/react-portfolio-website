@@ -5,10 +5,12 @@ import {RiServiceLine} from 'react-icons/ri';
 import {BiBook} from 'react-icons/bi';
 import {BiMessageSquareDetail} from 'react-icons/bi';
 
+
+
 export default function Nav() {
   return (
     <nav>
-      <a href='#'><AiOutlineHome/></a>
+      <a href='#' className='active'><AiOutlineHome/></a>
       <a href='#about'><AiOutlineUser/></a>
       <a href='#experience'><RiServiceLine/></a>
       <a href='#portfolio'><BiBook/></a>
