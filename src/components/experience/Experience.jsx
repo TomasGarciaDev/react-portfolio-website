@@ -9,7 +9,7 @@ export default function Experience() {
     <section id='experience'>
       {/* <h5>The Skills I Have</h5> */}
       <h2 className='htwo'>My Experience</h2>
-      <h5>These are the technologies I have worked with</h5>
+      <h5 className='hfive'>These are the technologies I have worked with</h5>
 
       <div className='container experience__container'>
         <div className='experience__frontend'>
