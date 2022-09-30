@@ -43,6 +43,14 @@
   color: var(--color-primary);
 }
 
+.htwo {
+  margin-bottom: 0rem;
+}
+
+h5 {
+  margin-bottom: 3rem;
+}
+
 /* ========== MEDIA QUERIES (MEDIUM DVICES) ========== */
 @media screen and (max-width: 1024px) {
   .experience__container {
